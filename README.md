@@ -1,0 +1,1 @@
+Python scripts made for rigging in Autodesk Maya 2022
