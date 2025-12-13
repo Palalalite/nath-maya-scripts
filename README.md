@@ -1,1 +1,1 @@
-Python scripts made for rigging in Autodesk Maya 2022
+Rigging helper scripts to use in Maya 2022
