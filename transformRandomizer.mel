@@ -1,0 +1,5 @@
+string $mode3 = "rotate";	// "move", "rotate" or "scale"
+vector $rMx3 = << 0,0,3600 >>;	// maximum x,y,z randomization
+vector $rMn3 = << 0,0,-3600 >>;	// minimum x,y,z randomizations
+for ($object in `ls -sl -tr`)
+	evalEcho($mode3+" "+`rand ($rMn3.x) ($rMx3.x)`+" "+`rand ($rMn3.y) ($rMx3.y)`+" "+`rand ($rMn3.z) ($rMx3.z)`+" "+$object);

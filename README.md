@@ -1,0 +1,1 @@
+Rigging helper scripts to use in Maya 2022

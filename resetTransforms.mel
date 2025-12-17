@@ -1,0 +1,11 @@
+for ($object in `ls -sl`){
+    setAttr ($object + ".translateX", 0);
+    setAttr ($object + ".translateY", 0);
+    setAttr ($object + ".translateZ", 0);
+    setAttr ($object + ".rotateX", 0);
+    setAttr ($object + ".rotateY", 0);
+    setAttr ($object + ".rotateZ", 0);
+    setAttr ($object + ".scaleX", 1);
+    setAttr ($object + ".scaleY", 1);
+    setAttr ($object + ".scaleZ", 1);
+};
